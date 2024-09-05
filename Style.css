@@ -1,0 +1,108 @@
+﻿/* Importa a fonte Chakra Petch do Google Fonts */
+@import url ( 'https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap' );
+
+/* Estiliza o corpo da página */
+corpo {
+    família de fontes : "Chakra Petch", sem serifa; /* Define uma fonte padrão */
+    cor de fundo : #DDDDDD; /* Fundo da página */
+    display: flex; /* Use Flexbox para layout */
+    direção flexível : coluna; /* Alinha os itens na vertical */
+    alinhar itens : centro; /* Centraliza os itens horizontalmente */
+    justificar-conteúdo: centro; /* Centraliza os itens verticalmente */
+    altura: 100 vh; /* Preenche a altura total da viewport */
+    margem: 0;
+    preenchimento: 0;
+}
+
+/* Estiliza os títulos h1 */
+h1 {
+    tamanho da fonte : 2,5 rem; /* Tamanho da fonte */
+    cor: # 222831; /* Cor do texto */
+    alinhamento de texto : centro; /* Alinha o texto ao centro */
+    espaçamento entre letras : 0,4 rem; /* Espaçamento entre letras */
+}
+
+/* Estiliza as cláusulas da página */
+seção {
+    display: flex; /* Use Flexbox para layout */
+    direção flexível : coluna; /* Alinha os itens na vertical */
+    alinhar itens : centro; /* Centraliza os itens horizontalmente */
+    margem inferior : 3 rem; /* Espaçamento abaixo de cada seção */
+}
+
+/* Estiliza as entradas dentro dos frascos */
+entrada de seção {
+    width: 30 rem; /* Largura dos inputs */
+    fronteira: nenhuma; /* Remove uma borda padrão */
+    preenchimento: 1 rem; /* Espaçamento interno */
+    raio da borda : 1,5 rem; /* Borda circundante */
+    margem inferior : 1 rem; /* Espaçamento abaixo dos inputs */
+    cor: # 45474B; /* Cor do texto */
+    tamanho da fonte : 1 rem; /* Tamanho da fonte */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+}
+
+/* Estiliza os botões dentro dos frascos */
+botão de seção {
+    preenchimento: 0,8 rem 1,2 rem; /* Espaçamento interno do botão */
+    fronteira: nenhuma; /* Remove uma borda padrão */
+    raio da borda : 1,5 rem; /* Borda circundante */
+    cor de fundo : # 30475E; /* Cor do fundo do botão */
+    cor: # F5F7F8; /* Cor do texto do botão */
+    tamanho da fonte : 1 rem; /* Tamanho da fonte */
+    cursor: ponteiro; /* Muda o cursor para indicar que é clicável */
+}
+
+/* Estiliza a caixa de resultados da pesquisa */
+. resultados-pesquisa {
+    largura: 60 rem; /* Largura máxima da caixa de resultados */
+    altura: 46 vh; /* Altura máxima da caixa de resultados */
+    estouro-y: automático; /* Adiciona rolagem vertical se necessário */
+    margem superior : 1 rem; /* Espaçamento acima da caixa de resultados */
+    preenchimento: 1 rem; /* Espaçamento interno */
+    raio da borda : 0,6 rem; /* Borda circundante */
+}
+
+/* Estiliza cada item de resultado */
+. item-resultado {
+    plano de fundo : #FFFFFF; /* Cor do fundo dos itens */
+    raio da borda : 0,6 rem; /* Borda circundante */
+    preenchimento: 1 rem; /* Espaçamento interno */
+    margem inferior : 1 rem; /* Espaçamento abaixo dos itens */
+    box-shadow: 0 2 px 4 px rgba ( 0 ,  0 ,  0 ,  0.1 ); /* Sombra leve */
+}
+
+    /* Estiliza os títulos dentro dos itens de resultado */
+    . item-resultado h2 {
+        tamanho da fonte : 1,5 rem; /* Tamanho da fonte */
+        cor: # 222831; /* Cor do texto */
+    }
+
+    /* Estiliza os links dentro dos itens de resultado */
+    . item-resultado a {
+        decoração de texto : nenhuma; /* Remove o sublinhado padrão dos links */
+        cor: # 30475E; /* Cor do texto dos links */
+    }
+
+        /* Estiliza os links quando são passados ​​o mouse sobre */
+        . item-resultado a : hover {
+            decoração de texto : sublinhado; /* Adicionado sublinhado ao passar o mouse */
+        }
+
+/* Estiliza a descrição meta dentro dos itens de resultado */
+. descrição-meta {
+    cor: # 45474B; /* Cor do texto */
+    margem: 0,5 rem 0; /* Margem acima e abaixo */
+}
+
+/* Estiliza o rodapé da página */
+rodapé {
+    cor de fundo : # F5F7F8; /* Cor do fundo do rodapé */
+    cor: # 45474B; /* Cor do texto */
+    alinhamento de texto : centro; /* Alinha o texto ao centro */
+    preenchimento: 0; /* Espaçamento interno */
+    largura: 100 %; /* Largura total da página */
+    posição: absoluta; /* Posição do rodapé */
+    inferior: 0; /* Alinha ao fundo da página */
+    tamanho da fonte : 1 rem; /* Tamanho da fonte */
+}}
